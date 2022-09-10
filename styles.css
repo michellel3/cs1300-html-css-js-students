@@ -1,7 +1,27 @@
 #cs1300-gallery {
-  background-color: lightblue;
+  background-color: rgb(233, 214, 255);
 }
 
-.gallery-container {
+h1 {
+  display: flex;
+  justify-content: center;
+}
+.gallery-item-container {
   /* TODO add styles (hint: use flex!) https://www.w3schools.com/cssref/ */
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+img {
+  width: 20rem;
+  height: 20rem;
+}
+
+img:hover {
+  border: solid rgb(168, 232, 255) 7px;
+}
+
+.gallery-item {
+  padding: 1rem;
 }
